@@ -1,8 +1,8 @@
 # Brief about the project : 
-Prediction of bengaluru house prices using regression models
+Prediction of Car price depending on mechanical factors of the car using simple linear regression. 3 itterations were made to improve the r2 score by considering the most important features. Focus would be only on itteration3 file.
 
 # Learning focus: 
-to apply multiple regression models in a loop without using hyperparameter tuning on a clean data. The accuracy was not in focus.
+Application of basic Linear regression. Dummies of categorical values and the importance of categorical values in the datasets
 
 # Steps followed:
 1. Data collection (Kaggle)
@@ -12,16 +12,6 @@ to apply multiple regression models in a loop without using hyperparameter tunin
 
 # Models  on focus:
 1. Linear Regression 
-2. SVRegression
-3. Decision tree regression 
-4.Random forest regression
-5. Bayesian Regression
-6. Lasso Regression
-7. Elastic net regression
-8. XG boost regression 
-9. Gradient boosting regression
-10.Bagging regression
-11.Adaboost regression
 
 # Areas of improvement : 
-sqft area is an important feature and should be cleaned. 
+The brand name could have been used to improve the R2 score.
