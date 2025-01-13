@@ -1,27 +1,29 @@
 # Brief about the project : 
-Prediction of bengaluru house prices using regression models
+spam detection using multiple classification techniques. NLP techniques used to process the msgs.
 
 # Learning focus: 
-to apply multiple regression models in a loop without using hyperparameter tuning on a clean data. The accuracy was not in focus.
+to apply multiple classification models in a loop without using hyperparameter tuning The focus was more on precision and not accuracy for  this project.
 
 # Steps followed:
 1. Data collection (Kaggle)
 2. Data cleaning
 3. EDA
-4. Model Building
+4. Text preprocessing : lower case, tokenize, remove stop words , stemming
+5. Model Building
+6. Evaluation
+7. Comparison with multiple models
 
 # Models  on focus:
-1. Linear Regression 
-2. SVRegression
-3. Decision tree regression 
-4.Random forest regression
-5. Bayesian Regression
-6. Lasso Regression
-7. Elastic net regression
-8. XG boost regression 
-9. Gradient boosting regression
-10.Bagging regression
-11.Adaboost regression
+1. Naives Bayes
+2. SVC
+3. KNN
+4. Decision Trees
+5. Logistic regression
+6. Random Forest
+7. Ada boost classifier
+8. Bagging classifier
+9. Gradient boosting
+10. Xg Boost
 
 # Areas of improvement : 
-sqft area is an important feature and should be cleaned. 
+Can be deployed to website and also hyper parameter tuning could have been explored.
