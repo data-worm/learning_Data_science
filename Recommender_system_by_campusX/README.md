@@ -1,27 +1,17 @@
 # Brief about the project : 
-Prediction of bengaluru house prices using regression models
+Recommending 5 movies according to the choice of the user
 
 # Learning focus: 
-to apply multiple regression models in a loop without using hyperparameter tuning on a clean data. The accuracy was not in focus.
+Building Tags using NLP techniques. Working with string datasets.
 
 # Steps followed:
 1. Data collection (Kaggle)
 2. Data cleaning
-3. EDA
-4. Model Building
+3. Building tags (the overview, genre, actor and director were primarily used)
 
 # Models  on focus:
-1. Linear Regression 
-2. SVRegression
-3. Decision tree regression 
-4.Random forest regression
-5. Bayesian Regression
-6. Lasso Regression
-7. Elastic net regression
-8. XG boost regression 
-9. Gradient boosting regression
-10.Bagging regression
-11.Adaboost regression
+1. Counut vectorizer to cectorize the tags
+2. cosine similarity to find the nearest vector
 
 # Areas of improvement : 
-sqft area is an important feature and should be cleaned. 
+Deployment as web service along with pictures of movies
